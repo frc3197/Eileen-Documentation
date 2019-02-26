@@ -3,18 +3,15 @@
 ==================
 .. image:: https://travis-ci.org/frc3197/2019-FRC.svg?branch=master
     :target: https://travis-ci.org/frc3197/2019-FRC
-.. image:: https://readthedocs.org/projects/2019-frc/badge/?version=latest
-    :target: https://2019-frc.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
 
 Code for 3197's Robot competing in the 2019 challenge, Destination: Deep Space
 
 ------------
 Code-Related
 ------------
-`I2C <https://2019-frc.readthedocs.io/en/documentation/I2C.html>`_
+`I2C <https://2019-documentation.readthedocs.io/en/latest/I2C.html>`_
 
-`VSCode Basics <https://2019-frc.readthedocs.io/en/documentation/VSCode%20Basics.html>`_
+`VSCode Basics <https://2019-documentation.readthedocs.io/en/latest/VSCode%20Basics.html>`_
 
 -------------------
 Class Documentation
@@ -72,9 +69,9 @@ Class Documentation
 ----------------------------
 Updating/Installing Firmware
 ----------------------------
-`Updating and Imaging the RoboRIO <https://2019-frc.readthedocs.io/en/documentation/Updating%20Instructions/Updating%20and%20Imaging%20the%20RoboRIO.html>`_
+`Updating and Imaging the RoboRIO <https://2019-documentation.readthedocs.io/en/latest/Updating%20Instructions/Updating%20and%20Imaging%20the%20RoboRIO.html>`_
 
-`Updating REV Spark Max Firmware <https://2019-frc.readthedocs.io/en/documentation/Updating%20Instructions/Updating%20Firmware%20of%20REV%20Spark%20Max's.html>`_
+`Updating REV Spark Max Firmware <https://2019-documentation.readthedocs.io/en/latest/Updating%20Instructions/Updating%20Firmware%20of%20REV%20Spark%20Max's.html>`_
 
 -----------------------
 Diagrams/Configurations
