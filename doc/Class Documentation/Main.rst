@@ -6,7 +6,7 @@ Main is the class that initializes and defines the robot. Is usually pre-generat
 ------------
 Dependencies
 ------------
-- ``edu.wpi.first.wpilibj.RobotBase``
+- `edu.wpi.first.wpilibj.RobotBase <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/RobotBase.html>`_
 
 --------
 Commands
