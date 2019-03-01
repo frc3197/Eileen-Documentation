@@ -13,16 +13,67 @@ Dependencies
 - `edu.wpi.first.wpilibj.command.InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_
 - `edu.wpi.first.wpilibj.command.Subsystem <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Subsystem.html>`_
 - `edu.wpi.first.wpilibj.smartdashboard.SmartDashboard <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/smartdashboard/SmartDashboard.html>`_
-- `frc.robot.RobotMap <https://2019-frc.readthedocs.io/en/documentation/Class%20Documentation/RobotMap.html>`_
-- `frc.robot.RobotMap.Channel <https://2019-frc.readthedocs.io/en/documentation/Class%20Documentation/RobotMap.html#public-static-enum-channel>`_
-- `frc.robot.RobotMap.DeadbandType <https://2019-frc.readthedocs.io/en/documentation/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
-- `frc.robot.RobotMap.GyroSensitivity <https://2019-frc.readthedocs.io/en/documentation/Class%20Documentation/RobotMap.html#public-static-enum-gyrosensitivity>`_
-- `frc.robot.commands.defaults.Articulate <https://2019-frc.readthedocs.io/en/documentation/Class%20Documentation/Commands/defaults/Articulate.html>`_
+- `frc.robot.RobotMap <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html>`_
+- `frc.robot.RobotMap.Channel <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-channel>`_
+- `frc.robot.RobotMap.DeadbandType <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
+- `frc.robot.RobotMap.GyroSensitivity <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-gyrosensitivity>`_
+- `frc.robot.commands.defaults.Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>`_
 
 --------
 Commands
 --------
 
-~~~~
+~~~~~~~~~~~~
+public Arm()
+~~~~~~~~~~~~
 
-~~~~
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public void initDefaultCommand()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public void drive(double speed, boolean hold)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public void elbow(double speed)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public void wrist(double speed)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+private double getAngle()
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~
+public void resetGyro()
+~~~~~~~~~~~~~~~~~~~~~~~
+
+TODO: Figure out why another class is needed to call this function.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public double getElbowEncoderPosition()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public double getWristEncoderPosition()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+private void resetEncoderPosition()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+private void resetGyroAngle()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

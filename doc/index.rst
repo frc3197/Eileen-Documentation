@@ -56,6 +56,8 @@ Class Documentation
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.subsystems.CargoManipulator <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/CargoManipulator.html>`_          |Defines the Cargo Manipulator                 |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc.robot.subsystems.Drivable <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Drivable.html>`_                          |Something with Java Interface                 |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.subsystems.DriveTrain <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/DriveTrain.html>`_                      |Defines the Drive Train                       |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.subsystems.Elevator <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Elevator.html>`_                          |Defines the Elevator (Contains Arm)           |
@@ -98,6 +100,8 @@ Helpful Resources
 `Limelight Documentation <http://docs.limelightvision.io/en/latest/>`_
 
 `REV Robotics Documentation <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/package-summary.html>`_
+
+`Java Documentation <https://docs.oracle.com/javase/8/docs/api/overview-summary.html>`_
 
 `reStructuredText Basics <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 

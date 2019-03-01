@@ -22,10 +22,10 @@ Example::
 Dependencies
 ------------
 
-- ``edu.wpi.first.wpilibj.TimedRobot``
-- ``edu.wpi.first.wpilibj.command.Scheduler``
-- ``edu.wpi.first.networktables.NetworkTable``
-- ``edu.wpi.first.networktables.NetworkTableInstance``
+- `edu.wpi.first.wpilibj.TimedRobot <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/TimedRobot.html>`_
+- `edu.wpi.first.wpilibj.command.Scheduler <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Scheduler.html>`_
+- `edu.wpi.first.networktables.NetworkTable <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/networktables/NetworkTable.html>`_
+- `edu.wpi.first.networktables.NetworkTableInstance <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/networktables/NetworkTableInstance.html>`_
 
 --------
 Commands
