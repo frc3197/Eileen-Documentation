@@ -69,11 +69,7 @@ public static enum MaxSpeeds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Defines multipliers that sets max speeds for certain motors.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-public static enum MaxSpeed
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
-SOON TO BE ERASED FROM EXISTENCE.
-
-~~~~
-
-~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public static enum RobotType
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Defines which robot is being used, A-Bot or B-Bot.

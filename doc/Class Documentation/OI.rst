@@ -10,10 +10,10 @@ does.
 Dependencies
 ------------
 
-- ``edu.wpi.first.wpilibj.GenericHID.Hand``
-- ``edu.wpi.first.wpilibj.XboxController``
-- ``edu.wpi.first.wpilibj.buttons.JoystickButton``
-- ``edu.wpi.first.wpilibj.buttons.POVButton``
+- `edu.wpi.first.wpilibj.GenericHID.Hand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/GenericHID.Hand.html>`_
+- `edu.wpi.first.wpilibj.XboxController <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/XboxController.html>`_
+- `edu.wpi.first.wpilibj.buttons.JoystickButton <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/buttons/JoystickButton.html>`_
+- `edu.wpi.first.wpilibj.buttons.POVButton <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/buttons/POVButton.html>`_
 
 --------
 Commands
