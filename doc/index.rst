@@ -38,6 +38,14 @@ Class Documentation
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.commands.test.DriveTrainTest <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/test/DriveTrainTest.html>`_        |Soon to be erased from existence.             |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc.robot.commands.presets.CargoShip <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/presets/CargoShip.html>`_            |[UNDER CONSTRUCTION]                          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc.robot.commands.presets.LevelOne <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/presets/LevelOne.html>`_              |[UNDER CONSTRUCTION]                          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc.robot.commands.presets.LevelThree <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/presets/LevelThree.html>`_          |[UNDER CONSTRUCTION]                          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc.robot.commands.presets.LevelTwo <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/presets/LevelTwo.html>`_              |[UNDER CONSTRUCTION]                          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.commands.defaults.Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>`_        |Moves the Arm (Manipulator at End)            |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.commands.defaults.Drive <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Drive.html>`_                  |Drives the Robot                              |
