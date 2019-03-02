@@ -34,8 +34,6 @@ Class Documentation
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.commands.ElevateToPreset <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/ElevateToPreset.html>`_                |Sets Elevator to a Preset Position            |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
-|`frc.robot.commands.Flex <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/Flex.html>`_                                      |Controls Arm Movement to Presets. (Unfinished)|
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.commands.test.DriveTrainRampTest <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/test/DriveTrainRampTest.html>`_|Soon to be erased from existence.             |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.commands.test.DriveTrainTest <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/test/DriveTrainTest.html>`_        |Soon to be erased from existence.             |
@@ -65,6 +63,10 @@ Class Documentation
 |`frc.robot.subsystems.Erector <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Erector.html>`_                            |Defines the Erector (Climber)                 |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc.robot.subsystems.Hatch <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Hatch.html>`_                                |Defines the Hatch Panel Mechanism (Beak)      |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc.robot.subsystems.Reset <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Reset.html>`_                                |Something with Java Interface                 |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc.robot.subsystems.ResetCommand <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/ResetCommand.html>`_                  |Command that uses the Reset Interface         |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 
 
