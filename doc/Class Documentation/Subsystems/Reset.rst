@@ -1,6 +1,6 @@
-=============================
-frc.robot.subsystems.Drivable
-=============================
+==========================
+frc.robot.subsystems.Reset
+==========================
 
 ------------
 Dependencies
@@ -10,9 +10,9 @@ No Dependencies
 --------
 Commands
 --------
-Drivable is an interface.
+Reset is an interface.
 
-Within is the function ``public void drive(double speed, boolean hold);``
+Within is the function ``public void reset();``
 
 TODO: Figure out what a Java interface is.
 
