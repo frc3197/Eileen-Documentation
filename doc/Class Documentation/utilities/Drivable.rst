@@ -1,13 +1,12 @@
 =============================
-frc2019.robot.subsystems.Drivable
+frc2019.robot.utilities.Drivable
 =============================
 
 ------------
 Dependencies
 ------------
-No Dependencies
+No Dependencies. Drivable is an interface.
 
 --------
 Commands
 --------
-Drivable is an interface.
