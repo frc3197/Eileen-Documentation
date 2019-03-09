@@ -1,5 +1,5 @@
 ======================================
-frc.robot.commands.defaults.Manipulate
+frc2019.robot.commands.defaults.Manipulate
 ======================================
 
 ------------
