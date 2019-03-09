@@ -1,13 +1,12 @@
 ====================================
-frc2019.robot.subsystems.FunctionWrapper
+frc2019.robot.utilities.FunctionWrapper
 ====================================
 
 ------------
 Dependencies
 ------------
-No Dependencies
+No Dependencies. FunctionWrapper is an interface.
 
 --------
 Commands
 --------
-FunctionWrapper is an interface.
