@@ -25,7 +25,7 @@ Numbers the CANSparkMax motor controllers.
 See `Motor Controller Spreadsheet <https://docs.google.com/spreadsheets/d/14p9fdd08mrI9wpgqd_k9QANKFcTs7CDPGgKoO7wAz68/edit?usp=sharing>`_ for more details.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-public static enum ArmPreset
+public static enum ElbowPreset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Sets the preset positions for the arm when placing Hatch Panels or Cargo.
 
