@@ -18,6 +18,10 @@ Keyboard Shortcuts in VSCode
 
 * ``Alt+Shift+O`` auto-imports any needed imports.
 
+* ``Ctrl+Shift+H`` finds and replaces across all files. ``Ctrl+H`` only does this in one file.
+
+* ``Ctrl+Shift+F`` finds across all files. ``Ctrl+F`` only does this in one file.
+
 ~~~~~~~~~~~~~~~~
 Gradlew Commands
 ~~~~~~~~~~~~~~~~
