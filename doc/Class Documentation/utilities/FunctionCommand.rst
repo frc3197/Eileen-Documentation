@@ -1,6 +1,6 @@
-=================================
-frc.robot.subsystems.ResetCommand
-=================================
+====================================
+frc2019.robot.utilities.FunctionCommand
+====================================
 
 ------------
 Dependencies
@@ -11,9 +11,9 @@ Dependencies
 Commands
 --------
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-public resetCommand(Reset reset)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public FunctionCommand(FunctionWrapper function)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 protected void initialize()

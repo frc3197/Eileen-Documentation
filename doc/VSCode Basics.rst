@@ -16,6 +16,8 @@ Keyboard Shortcuts in VSCode
 
 * ``Alt+Click`` allows you to place multiple cursors. This way, you can edit multiple similar lines of code at the same time.
 
+* ``Alt+Shift+O`` auto-imports any needed imports.
+
 ~~~~~~~~~~~~~~~~
 Gradlew Commands
 ~~~~~~~~~~~~~~~~
