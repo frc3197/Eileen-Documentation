@@ -10,3 +10,4 @@ No Dependencies. FunctionWrapper is an interface.
 --------
 Commands
 --------
+- public void call()
