@@ -15,10 +15,10 @@ Dependencies
 - `frc2019.robot.RobotMap.DeadbandType <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
 - `frc2019.robot.RobotMap.GyroSensitivity <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-gyrosensitivity>`_
 - `frc2019.robot.commands.defaults.Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>`_
-- Implements `frc2019.robot.utilities.Drivable <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/Drivable.html>`_ Interface.
+- Implements the `frc2019.robot.utilities.Drivable <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/Drivable.html>`_ Interface.
 - `frc2019.robot.utilities.FunctionCommand <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/FunctionCommand.html>`_
 - `edu.wpi.first.wpilibj.AnalogGyro <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/AnalogGyro.html>`_
-- `edu.wpi.first.wpilibj.command.InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_
+- ResetGyro inherits properties of `edu.wpi.first.wpilibj.command.InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_
 - Inherits properties of `edu.wpi.first.wpilibj.command.Subsystem <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Subsystem.html>`_
 - `edu.wpi.first.wpilibj.smartdashboard.SmartDashboard <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/smartdashboard/SmartDashboard.html>`_
 
@@ -64,27 +64,51 @@ Resets the gyro value. Requires class below to call.
 ----------------------
 public class ResetGyro
 ----------------------
-Inherits the properties of `InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_ (Command runs only once when called).
+- Inherits the properties of `edu.wpi.first.wpilibj.command.InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_ (Command runs only once when called).
+Class that allows ResetGyro() to work.
 
 ~~~~~~~~~~~
 ResetGyro()
 ~~~~~~~~~~~
+TODO: Figure out what ``super()`` does
+
+~~~~~~~~~~~~
+initialize()
+~~~~~~~~~~~~
+Calls resetGyro()
+
+----------------
+public class Arm
+----------------
+ResetGyro() and initialize() are the only functions that are under the class ResetGyro.
+Everything else exists under the class Arm.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public double getElbowEncoderPosition()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Gets the position of the encoder on the elbow.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public double getWristEncoderPosition()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Gets the position of the encoder on the wrist.
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public double getWristEncoderPositionRaw()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TODO: Figure out if this is used or not.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 private void resetEncoderPosition()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Resets both the wrist and elbow encoder positions.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 private void resetGyroAngle()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Resets the angle of the gyros.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~
+private void toggleGyro()
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Toggles whether the gyro is being used or not.
