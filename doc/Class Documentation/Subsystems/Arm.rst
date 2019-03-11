@@ -8,16 +8,20 @@ Dependencies
 - `com.revrobotics.CANDigitalInput <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANDigitalInput.html>`_
 - `com.revrobotics.CANDigitalInput.LimitSwitchPolarity <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANDigitalInput.LimitSwitchPolarity.html>`_
 - `com.revrobotics.CANSparkMax <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMax.html>`_
+- `com.revrobotics.CANSparkMax.IdleMode <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMax.IdleMode.html>`_
 - `com.revrobotics.CANSparkMaxLowLevel.MotorType <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMaxLowLevel.MotorType.html>`_
+- `frc2019.robot.RobotMap <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html>`_
+- `frc2019.robot.RobotMap.Channel <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-channel>`_
+- `frc2019.robot.RobotMap.DeadbandType <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
+- `frc2019.robot.RobotMap.GyroSensitivity <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-gyrosensitivity>`_
+- `frc2019.robot.commands.defaults.Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>`_
+- Implements `frc2019.robot.utilities.Drivable <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/Drivable.html>`_ Interface.
+- `frc2019.robot.utilities.FunctionCommand <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/FunctionCommand.html>`_
 - `edu.wpi.first.wpilibj.AnalogGyro <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/AnalogGyro.html>`_
 - `edu.wpi.first.wpilibj.command.InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_
-- `edu.wpi.first.wpilibj.command.Subsystem <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Subsystem.html>`_
+- Inherits properties of `edu.wpi.first.wpilibj.command.Subsystem <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Subsystem.html>`_
 - `edu.wpi.first.wpilibj.smartdashboard.SmartDashboard <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/smartdashboard/SmartDashboard.html>`_
-- `frc.robot.RobotMap <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html>`_
-- `frc.robot.RobotMap.Channel <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-channel>`_
-- `frc.robot.RobotMap.DeadbandType <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
-- `frc.robot.RobotMap.GyroSensitivity <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-gyrosensitivity>`_
-- `frc.robot.commands.defaults.Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>`_
+
 --------
 Commands
 --------
@@ -25,38 +29,46 @@ Commands
 ~~~~~~~~~~~~
 public Arm()
 ~~~~~~~~~~~~
-
+Constructor for Arm.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Associates the `Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>` command with the Arm subsystem.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void drive(double speed, boolean hold)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Drives the motor. Elbow runs, but wrist does not. Default command that moves the motor.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void elbow(double speed)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Drives the elbow motor as well as defining limit behavior. Puts encoder data to the SmartDashboard. Used if drive() is not.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void wrist(double speed)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Drives the wrist motor. Puts Gyro and Encoder values to the SmartDashboard. Sets Deadband for input and applies rudimentary PID.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 private double getAngle()
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Gets the angle of the gyro on the arm.
 
 ~~~~~~~~~~~~~~~~~~~~~~~
 public void resetGyro()
 ~~~~~~~~~~~~~~~~~~~~~~~
+Resets the gyro value. Requires class below to call.
 
-TODO: Figure out why another class is needed to call this function.
+----------------------
+public class ResetGyro
+----------------------
+Inherits the properties of `InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_ (Command runs only once when called).
+
+~~~~~~~~~~~
+ResetGyro()
+~~~~~~~~~~~
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public double getElbowEncoderPosition()
