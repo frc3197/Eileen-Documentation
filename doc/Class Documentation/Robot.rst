@@ -1,9 +1,7 @@
 ===============
 frc2019.robot.Robot
 ===============
-The class frc2019.robot.Robot 
-(inheriting methods from wdu.wpi.first.wpilibj.TimedRobot) 
-is the main class that contains the functions that initializes the robot.
+The class frc2019.robot.Robot is the main class that contains the functions that initializes the robot.
 
 Subsystems should be initialized here.
 
@@ -22,7 +20,7 @@ Example::
 Dependencies
 ------------
 
-- `edu.wpi.first.wpilibj.TimedRobot <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/TimedRobot.html>`_
+- Inherits properties of `edu.wpi.first.wpilibj.TimedRobot <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/TimedRobot.html>`_
 - `edu.wpi.first.wpilibj.command.Scheduler <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Scheduler.html>`_
 - `edu.wpi.first.networktables.NetworkTable <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/networktables/NetworkTable.html>`_
 - `edu.wpi.first.networktables.NetworkTableInstance <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/networktables/NetworkTableInstance.html>`_

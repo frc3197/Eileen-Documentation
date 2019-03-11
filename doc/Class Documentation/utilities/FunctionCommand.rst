@@ -1,11 +1,12 @@
 ====================================
 frc2019.robot.utilities.FunctionCommand
 ====================================
+Used for Abstraction and Standardization of Programs.
 
 ------------
 Dependencies
 ------------
-- `edu.wpi.first.wpilibj.command.InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_
+- Inherits properties of `edu.wpi.first.wpilibj.command.InstantCommand <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/InstantCommand.html>`_
 - Implements `frc2019.robot.utilities.FunctionWrapper <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/FunctionWrapper.html>`_ Interface
 --------
 Commands

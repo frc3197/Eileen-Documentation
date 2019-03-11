@@ -1,6 +1,7 @@
 ====================================
 frc2019.robot.utilities.FunctionWrapper
 ====================================
+Interface for FunctionCommand.
 
 ------------
 Dependencies
