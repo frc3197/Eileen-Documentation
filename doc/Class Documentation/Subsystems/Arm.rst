@@ -32,7 +32,13 @@ Commands
 ~~~~~~~~~~~~
 public Arm()
 ~~~~~~~~~~~~
-Constructor for Arm. Both motors are set to brake mode.
+Constructor for Arm. 
+
+Both motors are set to brake mode.
+
+The motors are brushless.
+
+Limit Switches are normally open.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
