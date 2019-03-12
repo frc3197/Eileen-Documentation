@@ -31,8 +31,9 @@ The motors are brushless.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+Associates the `Manipulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Manipulate.html>`_ command with the subsystem CargoManipulator.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void drive(double speed, boolean hold)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Drives the roller motors.
