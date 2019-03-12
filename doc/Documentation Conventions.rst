@@ -37,8 +37,43 @@ Index
 Classes
 ~~~~~~~
 1. Write a description of the entire class in general.
-2. List all functions within the class.
+2. Category called "Dependencies." List all dependencies and their links here.
+3. Category called "Commands." List all functions within the class.
+4. If there are any classes within the main class, act as if it is a large category, place it's functions underneath it, then end it with another category-level heading re-stating the main class.
+#4 Example::
+
+    ------------------------
+    public class nestedClass
+    ------------------------
+    Class that is nested within mainClass.
+
+    Functions below this are within the class nestedClass.
+
+    ~~~~~~~~~~~~~~~~~~~~~~~
+    public void initClass()
+    ~~~~~~~~~~~~~~~~~~~~~~~
+    Initializes nestedClass
+
+    ~~~~~~~~~~~~~~~~~~~~~
+    public void command()
+    ~~~~~~~~~~~~~~~~~~~~~
+    Does something.
+
+    ----------------------
+    public class mainClass
+    ----------------------
+    Functions above are placed within the class nestedClass.
 
 ~~~~~~~~~~
 Interfaces
 ~~~~~~~~~~
+Interfaces are special little snowflakes that need their own method of writing.
+
+1. Write a description of the Interface. For example, that it is used for.
+2. Category called "Dependencies." Interfaces usually do not have any dependencies. In here, you can state that the class is an interface.
+3. Category called "Commands." Commands should be listed underneath in bullet points. Extra text about them is not needed as the interface only specifies requirements for classes that utilize it.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Instructions and Other
+~~~~~~~~~~~~~~~~~~~~~~
+These aren't as standardized and can be written to your discretion. Usually includes a numbered list, and other stuff.
