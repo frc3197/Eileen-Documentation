@@ -22,7 +22,11 @@ Commands
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 public CargoManipulator()
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-Constructor for the CargoManipulator class. The motor is set to Brake mode.
+Constructor for the CargoManipulator class. 
+
+The motor is set to Brake mode.
+
+The motors are brushless.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
