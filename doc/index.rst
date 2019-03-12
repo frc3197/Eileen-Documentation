@@ -116,3 +116,5 @@ Helpful Resources
 `reStructuredText Basics <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_
 
 `Markdown Basics <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code>`_
+
+`Documentation Conventions <https://2019-documentation.readthedocs.io/en/latest/Documentation%20Conventions.html>`_
