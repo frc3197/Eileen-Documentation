@@ -43,7 +43,7 @@ Limit Switches are normally open.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Associates the `Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>` command with the subsystem Arm.
+Associates the `Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>`_ command with the subsystem Arm.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void drive(double speed, boolean hold)
