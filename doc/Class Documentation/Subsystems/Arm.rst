@@ -79,7 +79,7 @@ Class that allows ResetGyro() to work.
 ~~~~~~~~~~~
 ResetGyro()
 ~~~~~~~~~~~
-TODO: Figure out what ``super()`` does
+resets the gyro.
 
 ~~~~~~~~~~~~
 initialize()
