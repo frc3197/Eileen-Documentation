@@ -32,6 +32,8 @@ Class Documentation
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc2019.robot.commands.ArticulateToPreset <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/ArticulateToPreset.html>`_          |Sets Arm to a Preset Position                 |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc2019.robot.commands.AutoClimb <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/AutoClimb.html>`_                            |Automatically drives Climbers (WIP)           |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc2019.robot.commands.ElevateToPreset <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/ElevateToPreset.html>`_                |Sets Elevator to a Preset Position            |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc2019.robot.commands.test.DriveTrainRampTest <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/test/DriveTrainRampTest.html>`_|Soon to be erased from existence.             |
