@@ -22,6 +22,8 @@ Keyboard Shortcuts in VSCode
 
 * ``Ctrl+Shift+F`` finds across all files. ``Ctrl+F`` only does this in one file.
 
+* ``Ctrl+Alt+Up/Down`` shifts a line up and down in the code respectively.
+
 ~~~~~~~~~~~~~~~~
 Gradlew Commands
 ~~~~~~~~~~~~~~~~
