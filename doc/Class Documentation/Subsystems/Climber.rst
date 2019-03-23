@@ -21,3 +21,25 @@ Dependencies
 --------
 Commands
 --------
+
+~~~~~~~~~~~~~~~~
+public Climber()
+~~~~~~~~~~~~~~~~
+Constructor for Climber
+
+Vertical motor is set to brake mode, while horizontal motor is set to coast mode.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public void initDefaultCommand()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Associates the `Climb <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Climb.html>`_ command with the subsystem Climber.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public void driveVertical(double speed)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Drives the vertical motor.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+public void driveHorizontal()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Drives the horizontal motor.
