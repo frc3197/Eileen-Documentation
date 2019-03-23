@@ -50,6 +50,8 @@ Class Documentation
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc2019.robot.commands.defaults.Articulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Articulate.html>`_        |Moves the Arm (Manipulator at End)            |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc2019.robot.commands.defaults.Climb <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Climb.html>`_                  |Drives the Tower Mechanism                    |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc2019.robot.commands.defaults.Drive <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Drive.html>`_                  |Drives the Robot                              |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc2019.robot.commands.defaults.Elevate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Elevate.html>`_              |Moves the Elevator (Contains Arm)             |
@@ -63,6 +65,8 @@ Class Documentation
 |`frc2019.robot.subsystems.Arm <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Arm.html>`_                                    |Defines the Arm (Moves Manipulator)           |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc2019.robot.subsystems.CargoManipulator <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/CargoManipulator.html>`_          |Defines the Cargo Manipulator                 |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
+|`frc2019.robot.subsystems.Climber <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Climber.html>`_                            |Defines the Climber (Tower Mechanism)         |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
 |`frc2019.robot.subsystems.DriveTrain <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/DriveTrain.html>`_                      |Defines the Drive Train                       |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------------+
