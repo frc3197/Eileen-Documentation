@@ -124,3 +124,5 @@ Helpful Resources
 `Markdown Basics <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code>`_
 
 `Documentation Conventions <https://2019-documentation.readthedocs.io/en/latest/Documentation%20Conventions.html>`_
+
+`Spark MAX Status LED's <http://www.revrobotics.com/sparkmax-quickstart/#status-led>`_
