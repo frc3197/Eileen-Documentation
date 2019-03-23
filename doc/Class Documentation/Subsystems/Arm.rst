@@ -1,6 +1,6 @@
-=========================
+============================
 frc2019.robot.subsystems.Arm
-=========================
+============================
 Subsystem for the arm. The arm is a two-joint arm, with an elbow connected to the baby carriage, 
 and a wrist that moves the Cargo Manipulator up and down. The arm contains both the Cargo Manipulator 
 and the "Beak" (Hatch Mechanism).

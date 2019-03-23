@@ -1,6 +1,6 @@
-======================================
+=========================================
 frc2019.robot.subsystems.CargoManipulator
-======================================
+=========================================
 The Cargo Manipulator sucks in Cargo and deposits them. In contains one motor driving an axle 
 containing a set of wheels that feed the Cargo (large rubber balls) in and out of a large, polycarb shovel.
 
