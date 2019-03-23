@@ -1,6 +1,6 @@
-===========================
+==============================
 frc2019.robot.subsystems.Hatch
-===========================
+==============================
 Subsystem for the Hatch Mechanism. The Hatch Mechanism consists of a "beak" that moves up and down. It fits through the hole in the middle of the hatch panels, and moves upwards to pinch it.
 
 ------------
