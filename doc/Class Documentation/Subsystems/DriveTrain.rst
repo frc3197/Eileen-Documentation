@@ -13,11 +13,11 @@ Dependencies
 - `com.revrobotics.CANSparkMax <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMax.html>`_
 - `com.revrobotics.CANSparkMax.IdleMode <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMax.IdleMode.html>`_
 - `com.revrobotics.CANSparkMaxLowLevel.MotorType <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMaxLowLevel.MotorType.html>`_
-- `org.team3197.frc2019.robot.RobotMap <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html>`_
-- `org.team3197.frc2019.robot.RobotMap.CANSparkMaxID <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-cansparkmaxid>`_
-- `org.team3197.frc2019.robot.RobotMap.Channel <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-channel>`_
-- `org.team3197.frc2019.robot.RobotMap.DeadbandType <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
-- `org.team3197.frc2019.robot.commands.defaults.Drive <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Drive.html>`_
+- `org.team3197.frc2019.robot.RobotMap <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html>`_
+- `org.team3197.frc2019.robot.RobotMap.CANSparkMaxID <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-cansparkmaxid>`_
+- `org.team3197.frc2019.robot.RobotMap.Channel <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-channel>`_
+- `org.team3197.frc2019.robot.RobotMap.DeadbandType <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
+- `org.team3197.frc2019.robot.commands.defaults.Drive <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Drive.html>`_
 - `edu.wpi.first.wpilibj.SpeedControllerGroup <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/SpeedControllerGroup.html>`_
 - Inherits properties of `edu.wpi.first.wpilibj.command.Subsystem <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Subsystem.html>`_
 - `edu.wpi.first.wpilibj.drive.DifferentialDrive <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/drive/DifferentialDrive.html>`_
@@ -42,7 +42,7 @@ TODO: Figure out hashmaps and why they are needed here.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Associates the `Drive <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Drive.html>`_ command with the subsystem DriveTrain.
+Associates the `Drive <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Drive.html>`_ command with the subsystem DriveTrain.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void tankDrive(double l, double r)

@@ -12,13 +12,13 @@ AutoClimb is currently a work-in-progress and is subject to drastic changes.
 ------------
 Dependencies
 ------------
-- `org.team3197.frc2019.robot.RobotMap.Channel <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-channel>`_
-- `org.team3197.frc2019.robot.RobotMap.DeadbandType <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
-- `org.team3197.frc2019.robot.RobotMap.GyroSensitivity <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-gyrosensitivity>`_
-- `org.team3197.frc2019.robot.RobotMap.MaxSpeeds <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-maxspeeds>`_
+- `org.team3197.frc2019.robot.RobotMap.Channel <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-channel>`_
+- `org.team3197.frc2019.robot.RobotMap.DeadbandType <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
+- `org.team3197.frc2019.robot.RobotMap.GyroSensitivity <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-gyrosensitivity>`_
+- `org.team3197.frc2019.robot.RobotMap.MaxSpeeds <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-maxspeeds>`_
 - `org.team3197.frc2019.robot.subsystems.Climber <>`_
-- `org.team3197.frc2019.robot.subsystems.Erector <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Erector.html>`_
-- `org.team3197.frc2019.robot.utilities.FunctionCommand <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/FunctionCommand.html>`_
+- `org.team3197.frc2019.robot.subsystems.Erector <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Erector.html>`_
+- `org.team3197.frc2019.robot.utilities.FunctionCommand <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/FunctionCommand.html>`_
 - `edu.wpi.first.wpilibj.AnalogGyro <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/AnalogGyro.html>`_
 - Inherits properties of `edu.wpi.first.wpilibj.command.Command <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Command.html>`_
 - `edu.wpi.first.wpilibj.smartdashboard.SmartDashboard <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/smartdashboard/SmartDashboard.html>`_

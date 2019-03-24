@@ -6,8 +6,8 @@ frc2019.robot.commands.defaults.Elevate
 Dependencies
 ------------
 - `edu.wpi.first.wpilibj.command.Command <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Command.html>`_
-- `org.team3197.frc2019.robot.OI <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/OI.html>`_
-- `org.team33197.frc2019.robot.subsystems.Elevator <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Elevator.html>`_
+- `org.team3197.frc2019.robot.OI <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/OI.html>`_
+- `org.team33197.frc2019.robot.subsystems.Elevator <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/Subsystems/Elevator.html>`_
 
 --------
 Commands
