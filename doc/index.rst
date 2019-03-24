@@ -3,10 +3,16 @@ Eileen-Documentation
 ====================
 .. image:: https://travis-ci.org/frc3197/Eileen.svg?branch=master
     :target: https://travis-ci.org/frc3197/Eileen
+    :alt: Code Status
 .. image:: https://readthedocs.org/projects/eileen-documentation/badge/?version=latest
     :target: https://eileen-documentation.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
-
+.. image:: https://img.shields.io/github/license/frc3197/Eileen.svg
+    :target: https://opensource.org/licenses/MIT
+    :alt: License Status
+.. image:: https://img.shields.io/github/tag/frc3197/Eileen.svg
+    :target: https://github.com/frc3197/Eileen/tags
+    :alt: Release Status
 Code for 3197's Robot competing in the 2019 challenge, Destination: Deep Space
 
 ------------
