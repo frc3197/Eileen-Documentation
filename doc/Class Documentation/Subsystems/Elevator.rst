@@ -13,10 +13,10 @@ Dependencies
 - `com.revrobotics.CANSparkMax <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMax.html>`_
 - `com.revrobotics.CANSparkMax.IdleMode <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMax.IdleMode.html>`_
 - `com.revrobotics.CANSparkMaxLowLevel.MotorType <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMaxLowLevel.MotorType.html>`_
-- `org.team3197.frc2019.robot.RobotMap <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html>`_
-- `org.team3197.frc2019.robot.RobotMap.DeadbandType <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
+- `org.team3197.frc2019.robot.RobotMap <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html>`_
+- `org.team3197.frc2019.robot.RobotMap.DeadbandType <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
 - `org.team3197.frc2019.robot.commands.defaults.Elevate <https://2019-frc.readthedocs.io/en/documentation/Class%20Documentation/Commands/defaults/Elevate.html>`_
-- Implements the `org.team3197.frc2019.robot.utilities.Drivable <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/Drivable.html>`_ Interface.
+- Implements the `org.team3197.frc2019.robot.utilities.Drivable <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/Drivable.html>`_ Interface.
 - `org.team3197.frc2019.robot.utilities.FunctionCommand <>`_
 - `edu.wpi.first.wpilibj.SpeedControllerGroup <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/SpeedControllerGroup.html>`_
 - LimitReset inherits properties of `edu.wpi.first.wpilibj.buttons.Trigger <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/buttons/Trigger.html>`_
@@ -41,7 +41,7 @@ Limit Switches are normally open.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Associates the `Elevate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Elevate.html>`_ command with the Subsystem Elevator.
+Associates the `Elevate <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Elevate.html>`_ command with the Subsystem Elevator.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void drive(double speed, boolean hold)

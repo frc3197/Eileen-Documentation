@@ -13,9 +13,9 @@ Dependencies
 - `com.revrobotics.CANSparkMax.IdleMode <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMax.IdleMode.html>`_
 - `com.revrobotics.CANSparkMaxLowLevel.MotorType <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMaxLowLevel.MotorType.html>`_
 - `com.revrobotics.ControlType <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/ControlType.html>`_
-- `org.team3197.frc2019.robot.RobotMap.CANSparkMaxID <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-cansparkmaxid>`_
-- `org.team3197.frc2019.robot.RobotMap.DeadbandType <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
-- `org.team3197.frc2019.robot.commands.defaults.Climb <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Climb.html>`_
+- `org.team3197.frc2019.robot.RobotMap.CANSparkMaxID <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-cansparkmaxid>`_
+- `org.team3197.frc2019.robot.RobotMap.DeadbandType <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/RobotMap.html#public-static-enum-deadbandtype>`_
+- `org.team3197.frc2019.robot.commands.defaults.Climb <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Climb.html>`_
 - Inherits properties of `edu.wpi.first.wpilibj.command.Subsystem <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Subsystem.html>`_
 
 --------
@@ -32,7 +32,7 @@ Vertical motor is set to brake mode, while horizontal motor is set to coast mode
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Associates the `Climb <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Climb.html>`_ command with the subsystem Climber.
+Associates the `Climb <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Climb.html>`_ command with the subsystem Climber.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void driveVertical(double speed)

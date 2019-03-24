@@ -12,7 +12,7 @@ Dependencies
 - `com.revrobotics.CANSparkMaxLowLevel.MotorType <http://www.revrobotics.com/content/sw/max/sw-docs/java/com/revrobotics/CANSparkMaxLowLevel.MotorType.html>`_
 - `org.team3197.frc2019.robot.RobotMap <https://2019-frc.readthedocs.io/en/documentation/Class%20Documentation/RobotMap.html>`_
 - `org.team3197.frc2019.robot.commands.defaults.Manipulate <https://2019-frc.readthedocs.io/en/documentation/Class%20Documentation/Commands/defaults/Manipulate.html>`_
-- Implements the `org.team3197.frc2019.robot.utilities.Drivable <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/Drivable.html>`_ Interface.
+- Implements the `org.team3197.frc2019.robot.utilities.Drivable <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/utilities/Drivable.html>`_ Interface.
 - Inherits properties of `edu.epi.first.wpilibj.command.Subsystem <http://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/command/Subsystem.html>`_
 
 --------
@@ -31,7 +31,7 @@ The motors are brushless.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void initDefaultCommand()
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Associates the `Manipulate <https://2019-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Manipulate.html>`_ command with the subsystem CargoManipulator.
+Associates the `Manipulate <https://eileen-documentation.readthedocs.io/en/latest/Class%20Documentation/Commands/defaults/Manipulate.html>`_ command with the subsystem CargoManipulator.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 public void drive(double speed, boolean hold)
