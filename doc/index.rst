@@ -102,7 +102,7 @@ Diagrams/Configurations
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Controller Configurations
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-.. image:: https://raw.githubusercontent.com/frc3197/2019-Documentation/master/doc/Controller%20Configuration.png
+.. image:: https://raw.githubusercontent.com/frc3197/Eileen-Documentation/master/doc/Controller%20Configuration.png
    :width: 600
 - Presets in brackets correspond to the Ctrl variant. For example, on Operator, ``A + Up`` is equal to Cargo Lv. 3.
 - The ``A`` button on both controllers needs to be held in order to access their functions.
