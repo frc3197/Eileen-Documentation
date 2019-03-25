@@ -15,6 +15,8 @@ Eileen-Documentation
     :alt: Release Status
 Code for 3197's Robot competing in the 2019 challenge, Destination: Deep Space
 
+Eileen is a play on the phrase "I lean" as the robot liked to lean a lot during testing phases.
+
 ------------
 Code-Related
 ------------
